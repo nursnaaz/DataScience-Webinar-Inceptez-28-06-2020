@@ -77,6 +77,8 @@ def upload():
 
 if __name__ == '__main__':
     app.run( debug = True, threaded = True)
+    #In Cloud
+    #app.run(host='0.0.0.0', debug = True, threaded = True)
 
     # Serve the app with gevent
     #http_server = WSGIServer(('0.0.0.0', 5000), app)
